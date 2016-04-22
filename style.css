@@ -1,0 +1,435 @@
+/*
+Theme Name: FirstName Blank Theme
+Theme URI: URL for FirstName Blank
+Author: FirstName LastName
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: firstname_lastname_blank_template
+*/
+
+
+@import url("css/normalize.css");
+
+@import url("css/skeleton.css");
+
+*{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.metaslider .caption-wrap {
+background: none !important;
+/* opacity: 0.4 !important; */
+width: 65% !important;
+height: 65% !important;
+}
+
+
+.search-field {
+background: #000000 !important;
+background-color: #000000 !important;
+color: red !important;
+border: solid 1px #ff0;
+padding: 0 !important;
+margin: 0 !important;
+
+}
+
+.label {
+margin: 0 !important;
+padding: 0 !important;
+
+}
+
+.search-form {
+background: #ffffff;
+border: 1px solid #ff0000;
+padding: 0 !important;
+margin: 0 !important;
+/* height: 170px !important; */
+width: 20px;
+}
+
+.input[type="search"] {
+border: none; 
+border-top: 1px solid #666;
+border-bottom: 1px solid #666;
+border-left: 1px solid #666;
+min-height: 45px; 
+font-size: 1.2rem;
+padding: 0 !important;
+width: 100%;
+border-radius: inherit;
+margin: 0 !important;
+background-color: #fff;
+}
+
+/* .s {
+background: #000000 !important;
+color: #ff0000;
+} */
+
+/* .searchform {
+background: #000000;
+border: 1px solid #000000;
+height: 25px;
+padding: -20px;
+} */
+
+
+.cse.gsc-control-cse,
+.gsc-control-cse {
+padding: 20px !important;
+}
+
+
+
+.searchform {
+border: 2px solid #000000 !important;
+height: 50px;
+}
+
+
+.searchsubmit {
+color: red !important;
+background: red !important;
+
+}
+
+.search {
+border: 1px solid #000000;
+/* height: 100px; */
+/* width: 100%; */
+/* padding-top: -20px !important; */
+/* margin: 10px; */
+}
+
+
+.slidertitle {
+font-size: 30px !important;
+opacity: 1 !important;
+text-decoration: bold;
+margin-top: 5% !important;
+}
+
+.testone {
+/* height: 50px !important;
+width: 50px !important; */
+background: #900018!important;
+border: #ff0000 !important;
+padding: 2%;
+color: #ffffff;
+margin-bottom: 15px;
+}
+
+/* .prac {
+ padding: 3%;
+border: 1px solid #ccc;
+min-height: 20px;
+margin-top: 5%;
+height: 30px;
+width: 100%;
+padding-right: 10%;
+padding-left: 10%;
+} */
+
+.slidebox {
+background: #ffffff;
+color: #ff0000;
+border: 1px solid #000;
+}
+
+.metaslider .caption {
+background-color: #fff;
+}
+
+.metaslider .caption-wrap {
+background-color: #ff0;
+}
+
+
+.metaslider .caption,
+.metaslider .cs-title,
+.metaslider .nivo-caption {
+    background: white; /* adjust as necessary */
+    color: black;
+    opacity: 16;
+}
+
+
+.prac {
+padding: 3%;
+border-bottom: 1px dashed #ccc;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 5%;
+padding-bottom: 5%;
+
+} 
+
+
+.social {
+/* padding: 3%; */
+border-top: 1px dashed #ccc;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 5%;
+padding-bottom: 5%;
+
+}
+
+.sbox {
+/* border: 1px solid #000; */
+}
+
+
+.pbox {
+min-height: 300px;
+
+}
+
+
+/* -------------- Start Footer styling ------------------ */
+
+.footer {
+background-color: white;
+border: 1px solid #ccc;
+text-color: #ccc;
+text-align: center;
+color: #8f8f8f;
+/* margin-top: 2%; */
+padding-top: 1.5%;
+padding-bottom: 1.5%;
+padding-right: 4%;
+padding-left: 4%;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+
+.blank-menu-footer {
+
+}
+.blank-menu-footer ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+.blank-menu-footer li {
+    display: inline;
+}
+.blank-menu-footer ul li a {
+    text-decoration:none;  
+   margin: -2px;
+padding-right: 5px;
+padding-left: 5px;
+  /*  padding: 5px 0px 5px 5px;  */
+    /* padding: 0; */
+    font-weight: 700;
+
+}
+.blank-menu-footer ul li a:hover {
+    color: #cccccc;
+}
+
+
+
+.footer a {
+color: #b7b7b7;
+font-size: 14px;
+text-decoration: underline;
+border-right: 1px solid #b7b7b7;
+/* margin: 1px;
+padding: 25px; */
+}
+
+
+/* -------------- End Footer styling ------------------ */
+
+.center {
+text-align: center;
+/* border: 1px solid #000; */
+/* border: 1px solid #ff0; */
+/* padding-left: 40px; */
+}
+
+.search {
+/* max-height: 25px; */
+}
+
+.lfloat {
+float: left;
+/* margin-right: 20px; */
+/* border: 1px solid #ff0000; */
+width: 20px;
+}
+
+.rfloat {
+float: right;
+}
+
+.caption {
+color: #ffffff;
+margin: 15%;
+background-color: none;
+}
+
+.slide-56 {
+border: 1px solid #ff00000;
+}
+
+.caption-wrap {
+background-color: red;
+color: #ff0000;
+}
+
+.black {
+color: #000;
+/* margin-bottom: -10px; */
+margin-right: 10px;
+/* border: 1px solid #000; */
+width: 92%;
+padding-left: 8%;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+}
+
+
+.gborder {
+border: solid 1px #cccccc;
+}
+
+.dashed {
+border-top: dashed 1px #cccccc;
+padding: 3.4%;
+}
+
+.parea {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 22px;
+color: #fff;
+/* border-bottom: solid 5px #fff; */
+background-color: #3f48cc;
+padding: 3%;
+text-align: center;
+}
+
+.ctitle {
+/* border-bottom: 1px dashed #ccc; */
+text-align: center;
+color: #002776;
+padding: 4%;
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 22px;
+}
+
+.blue {
+background-color: #3f48cc;
+padding: 1%;
+color: white;
+}
+
+.bluesearch {
+background-color: #3f48cc;
+/* padding: 1%; */
+color: white;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+}
+
+h2, h4, h6 {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+h2 {
+    font-size: 2.0rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.2rem;
+}
+h6 {
+    font-size: 1.0rem;
+}
+
+/* menu */
+
+.white {
+background-color: #fff;
+}
+
+.conbg {
+background-color: #ecebe6;
+}
+
+.red {
+border-right: 3px solid  #ff0000;
+border-left: 3px solid  #ff0000;
+maximum-height: 50px !important;
+
+}
+
+.cmargin {
+margin-top: 2%;
+}
+
+.conpadding {
+padding-top: 2%;
+padding-bottom: 2%;
+padding-right: 2%;
+padding-left: 2%;
+}
+
+
+.botpadding {
+/* padding-top: 2%; */
+padding-bottom: 2%;
+padding-right: 2%;
+padding-left: 2%;
+}
+
+
+/* ---------------------------------- Start Header Nav bar styling -------------------------------- */
+.blank-menu-header {
+
+}
+.blank-menu-header ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;  
+    margin: 4px;
+    padding: 5px 0px 5px 40px; 
+    font-weight: 300;
+    color: #fff;
+
+}
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
+}
+
+/* ---------------------------------- End Header Nav bar styling -------------------------------- */
