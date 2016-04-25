@@ -10,12 +10,15 @@
    </head>
     <body>
        <div class="container"> 
-            <header class="row white">
+            <header class="row hcolor">
                 <div class="eight columns">
 
 
+<a href="http://webdevclass.tk/biz/">
 
 <?php dynamic_sidebar('logo'); ?>
+
+</a>
                 <!--    <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
                     <h2><?php bloginfo('description'); ?></h2> -->
 
@@ -25,7 +28,7 @@
 
 <div class="three columns">
 
-<img src="http://i65.tinypic.com/2e4lqmp.png" alt="Holland & Knight contact" style="margin-top: 20px; margin-bottom: 10px; margin-left: 25px" >
+<img src="http://i65.tinypic.com/2e4lqmp.png" alt="Holland & Knight contact" style="margin-top: 20px; margin-bottom: 10px; margin-left: 25px;  " >
 
 
 </div>
@@ -36,6 +39,7 @@
             </header>
 <!-- END OF HEADER - Add Menu here -->
 <div class="row">
+<div class="border row">
 	<div class="nine columns blue">
 
 
@@ -46,15 +50,14 @@
 			));?> 
 		</div>
 
-<div class="three columns bluesearch">
-
- <!-- <?php dynamic_sidebar('search'); ?> -->
+<div class="three columns">
+<div class="sbar"> <!-- three columns  -->
 
 <?php get_search_form(); ?>
-<!-- <?php get_search_form(); ?>
-Search
-<br />
-Search -->
+
+
+</div>
+</div>
 </div>
 
 	</div> 

@@ -15,6 +15,7 @@ Text Domain: firstname_lastname_blank_template
 
 *{
     color: #000000;
+    /* border: 5px solid #000; */
     font-size: 14px;
     line-height: 16px;
 }
@@ -26,22 +27,72 @@ width: 65% !important;
 height: 65% !important;
 }
 
+a.sliderlink {
+width: 50px !important; */
+background: #900018!important;
+border: #ff0000 !important;
+padding: 2%;
+color: #ffffff;
+margin-bottom: 15px;
+}
 
-.search-field {
-background: #000000 !important;
-background-color: #000000 !important;
-color: red !important;
-border: solid 1px #ff0;
-padding: 0 !important;
-margin: 0 !important;
+a.sliderlink:hover {
+background: #ec3367 !important;
+}
+
+.metaslider a {
+background: #a30431;
+}
+
+
+
+.blogposts {
+border: solid 1px #ccc;
+margin-bottom: 3%;
+background: white;
+box-shadow: 1px 1px 1px 1px #ccc;
 
 }
 
-.label {
-margin: 0 !important;
-padding: 0 !important;
-
+.published {
+/* border: solid 1px #000000; */
+margin-top: -2%;
+float: left;
+top: 1px;
 }
+
+.btitle {
+font-size: 25px;
+color: #000000; /* c69d20 */
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+line-height: 120%;
+}
+
+.latest {
+font-size: 25px;
+color: blue; /* 002776 */ /* grey #6e6e6e */
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+line-height: 120%;
+background: white;
+border: 1px solid #ccc;
+padding: 2%;
+}
+
+.results {
+text-decoration: underline; 
+font-size: 25px;
+color: blue; /* 002776 */ /* grey #6e6e6e */
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+
+
+/* -------------------------- Start Search Styling ----------------------------------*/
 
 .search-form {
 background: #ffffff;
@@ -52,60 +103,52 @@ margin: 0 !important;
 width: 20px;
 }
 
-.input[type="search"] {
-border: none; 
-border-top: 1px solid #666;
-border-bottom: 1px solid #666;
-border-left: 1px solid #666;
-min-height: 45px; 
-font-size: 1.2rem;
-padding: 0 !important;
-width: 100%;
-border-radius: inherit;
-margin: 0 !important;
-background-color: #fff;
-}
 
-/* .s {
-background: #000000 !important;
-color: #ff0000;
-} */
-
-/* .searchform {
-background: #000000;
-border: 1px solid #000000;
-height: 25px;
-padding: -20px;
-} */
-
-
-.cse.gsc-control-cse,
-.gsc-control-cse {
-padding: 20px !important;
-}
-
-
-
-.searchform {
-border: 2px solid #000000 !important;
-height: 50px;
-}
-
-
-.searchsubmit {
+.search-field {               /* ----- Search field targets the actual search bar where you input text ------- */
+background-color: #ffffff !important;
+width: 60%;
 color: red !important;
-background: red !important;
+border: solid 1px #ff0;
+padding: 0 !important;
+margin: 0 !important;
 
 }
 
-.search {
-border: 1px solid #000000;
-/* height: 100px; */
-/* width: 100%; */
-/* padding-top: -20px !important; */
-/* margin: 10px; */
+.search-submit {           /* ----- search-submit targets the search button ---- */
+border: solid 2px #064cda !important;
+float: right;
+background: #3374f8 !important;
+color: #ffffff !important;
+/* width: 10%; */
+padding-left: 5px !important;
+padding-right: 5px !important;
+padding-top: 0 !important;
+padding-bottom: 0 !important; 
+margin-right: 12%;
+margin-top: -18%;
+/* margin-bottom: none !important; */
 }
 
+.contentheight {
+min-height: 341px;
+}
+
+.label {
+margin: 0 !important;
+padding: 0 !important;
+
+}
+
+.genborder {
+border: 1px solid #9d9d9d;
+}
+
+.border {
+border: 1px solid #011744;
+background-color: #3f48cc;
+/* height: 38px; */
+
+}
 
 .slidertitle {
 font-size: 30px !important;
@@ -122,6 +165,19 @@ border: #ff0000 !important;
 padding: 2%;
 color: #ffffff;
 margin-bottom: 15px;
+}
+
+.navlink {
+/* text-decoration: underline !important; */
+}
+
+.navlink:hover {
+text-decoration: underline !important;
+}
+
+
+.testone:hover {
+background: #000000;
 }
 
 /* .prac {
@@ -181,14 +237,26 @@ padding-bottom: 5%;
 }
 
 .sbox {
-/* border: 1px solid #000; */
+border: 1px solid #ff0000;
+margin-top: -2%;
 }
 
+.blogmargin {
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.blogpadding {
+padding: 2%;
+
+}
 
 .pbox {
 min-height: 300px;
-
+/* margin-top: -2%; */
 }
+
+
 
 
 /* -------------- Start Footer styling ------------------ */
@@ -206,6 +274,10 @@ padding-right: 4%;
 padding-left: 4%;
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
+}
+
+footer {
+border: 2px solid red;
 }
 
 
@@ -256,9 +328,7 @@ text-align: center;
 /* padding-left: 40px; */
 }
 
-.search {
-/* max-height: 25px; */
-}
+
 
 .lfloat {
 float: left;
@@ -301,6 +371,7 @@ font-size: 16px;
 
 .gborder {
 border: solid 1px #cccccc;
+min-height: 240px;
 }
 
 .dashed {
@@ -335,10 +406,23 @@ padding: 1%;
 color: white;
 }
 
-.bluesearch {
-background-color: #3f48cc;
+.sblue {
+/* background-color: #3f48cc; */
+/* border: 1px solid pink; */
+}
+
+
+.sbar {
+/* background-color: red; */
+/* border: 1px solid #000; */
+float: right;
+width: 100%; /* width: 250px */
 /* padding: 1%; */
 color: white;
+/* margin-left: 1%;*/
+/* padding-bottom: -10px !important;
+margin-bottom: -10px !important; */
+height: 38px !important;
 }
 
 
@@ -374,6 +458,13 @@ h6 {
 
 .white {
 background-color: #fff;
+box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.hcolor {
+background-color: #fff;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
 }
 
 .conbg {
@@ -381,10 +472,7 @@ background-color: #ecebe6;
 }
 
 .red {
-border-right: 3px solid  #ff0000;
-border-left: 3px solid  #ff0000;
-maximum-height: 50px !important;
-
+border: 3px solid  #ff0000;
 }
 
 .cmargin {
@@ -406,6 +494,14 @@ padding-right: 2%;
 padding-left: 2%;
 }
 
+.floatright {
+float: right; 
+}
+
+.lheight {
+line-height: 200% !important;
+background: red !important;
+}
 
 /* ---------------------------------- Start Header Nav bar styling -------------------------------- */
 .blank-menu-header {
@@ -416,20 +512,31 @@ padding-left: 2%;
     padding: 0; 
     list-style-type: none; 
     list-style-image: none; 
+
 }
 .blank-menu-header li {
     display: inline;
+
 }
 .blank-menu-header ul li a {
     text-decoration:none;  
     margin: 4px;
-    padding: 5px 0px 5px 40px; 
+    padding: 5px 0px 5px 40px;
     font-weight: 300;
     color: #fff;
 
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
+    text-decoration: underline;
 }
 
+.blank-menu-header ul li a:active {
+color: #002776;
+}
 /* ---------------------------------- End Header Nav bar styling -------------------------------- */
+
+
+
+
+
